@@ -1,0 +1,18 @@
+预测正确的:
+    -0. kafka_AbstractCoordinator.java@handle@814 : info
+    -1. kafka_AbstractWorkerSourceTask.java@maybeCreateTopic@521 : info
+——————————————————————————————————————————————————————
+预测错误的:
+    -0. kafka_AbstractCoordinator.java@disable@1408 : expecting debug but got info
+    -1. kafka_AbstractConnectCli.java@run@99 : expecting error but got info
+    -2. kafka_AbstractCoordinator.java@sendFindCoordinatorRequest@864 : expecting debug but got warn
+    -3. kafka_AbstractCoordinator.java@handle@660 : expecting error but got info
+    -4. kafka_AbstractConnectCli.java@startConnect@140 : expecting info but got warn
+    -5. kafka_AbstractCoordinator.java@handle@797 : expecting error but got info
+    -6. kafka_AbstractCoordinator.java@handle@832 : expecting error but got info
+    -7. kafka_AbstractStickyAssignor.java@isBalanced@702 : expecting debug but got warn
+    -8. kafka_AbstractCoordinator.java@ensureCoordinatorReady@276 : expecting debug but got warn
+    -9. kafka_AbstractStickyAssignor.java@performReassignments@915 : expecting error but got info
+    -10. kafka_AbstractStickyAssignor.java@hasCycles@1156 : expecting error but got warn
+    -11. kafka_AbstractLogin.java@login@61 : expecting info but got warn
+    -12. kafka_AbstractCoordinator.java@markCoordinatorUnknown@980 : expecting warn but got info
